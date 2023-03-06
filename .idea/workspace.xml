@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4ee8ff4e-e5d5-4e9f-85d8-e2aeb335b540" name="Changes" comment="added tests" />
+    <list default="true" id="4ee8ff4e-e5d5-4e9f-85d8-e2aeb335b540" name="Changes" comment="added tests">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/android/OnboardingScreenTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/android/SearchTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/android/WikiTests.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -96,7 +100,7 @@
       <recent name="config" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.OnboardingScreenTests.onboardingTest">
+  <component name="RunManager" selected="Gradle.OnboardingScreenTests">
     <configuration name="OnboardingScreenTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -214,8 +218,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.OnboardingScreenTests.onboardingTest" />
         <item itemvalue="Gradle.OnboardingScreenTests" />
+        <item itemvalue="Gradle.OnboardingScreenTests.onboardingTest" />
         <item itemvalue="Gradle.SearchTests.searchTest (2)" />
         <item itemvalue="Gradle.SearchTests.searchTest" />
         <item itemvalue="Gradle.SearchTests.searchTest (1)" />
@@ -259,7 +263,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678127740839</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="added tests">
+      <created>1678130208060</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1678130208060</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
