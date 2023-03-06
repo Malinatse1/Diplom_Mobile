@@ -1,4 +1,4 @@
-# <img width="5%" title="Wikipedia" src="media/logo/Wikipedia.svg"> Дипломный проект по тестирования мобильного приложения [Wikipedia](https://github.com/wikimedia/apps-android-wikipedia/)
+# <img width="5%" title="Wikipedia" src="readme_resources/wiki_logo.jpg"> Дипломный проект по тестирования мобильного приложения [Wikipedia](https://github.com/wikimedia/apps-android-wikipedia/)
 
   Содержание:
 
@@ -48,6 +48,7 @@
 2. Получение отчёта: 
 
 ```gradle allureServe```
+
 3. Результат запуска сборки можно посмотреть в отчёте Allure.
 
  
