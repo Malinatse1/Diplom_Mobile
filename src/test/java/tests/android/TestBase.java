@@ -18,12 +18,10 @@ public class TestBase {
 
     @BeforeAll
     static void beforeAll() {
-        Configuration.browser = EmulatorDriver.class.getName();
         Configuration.browserSize = null;
         Configuration.timeout = 15000;
         Configuration.pageLoadTimeout = 15000;
-        String env = System.getProperty("env");
-        switch (env) {
+        switch (System.getProperty("env")) {
             case "browserstack":
                 Configuration.browser = BrowserstackDriver.class.getName();
                 break;
