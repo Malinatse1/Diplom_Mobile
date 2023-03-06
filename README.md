@@ -36,7 +36,10 @@
 ##  Запуск тестов из терминала :computer:
 
 1. Запуск с командной строки:
-```gradle clean test```
+```gradle clean test =-Denv=browserstack```
+```gradle clean test = -Denv=emulator```
+```gradle clean test = -Denv=real```
+
 2. Получение отчёта: ```gradle allureServe```
 3. Результат запуска сборки можно посмотреть в отчёте Allure
 
