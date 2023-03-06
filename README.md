@@ -1,6 +1,6 @@
 # <img width="5%" title="Wikipedia" src="readme_resources/wiki_logo.jpg"> Дипломный проект по тестирования мобильного приложения [Wikipedia](https://github.com/wikimedia/apps-android-wikipedia/)
 
-  Содержание:
+##  Содержание:
 
 - Технологии и инструменты
 - Список проверок, реализованных в тестах
