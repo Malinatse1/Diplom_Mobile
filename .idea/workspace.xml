@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4ee8ff4e-e5d5-4e9f-85d8-e2aeb335b540" name="Changes" comment="added tests">
+      <change afterPath="$PROJECT_DIR$/readme_resources/video-browserstack.gif" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -79,12 +80,13 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/QA GURU/HW_22_Mobile",
+    "last_opened_file_path": "C:/QA GURU/HW_22_Mobile/readme_resources",
     "settings.editor.selected.configurable": "io.qameta.allure.idea.settings.AppSettingsConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\QA GURU\HW_22_Mobile\readme_resources" />
       <recent name="C:\QA GURU\HW_22_Mobile" />
       <recent name="C:\QA GURU\HW_22_Mobile\src\test\java\tests\android\local" />
       <recent name="C:\QA GURU\HW_22_Mobile\src\test\resources" />
@@ -254,7 +256,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678127282092</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="added tests">
+      <created>1678127740837</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1678127740839</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

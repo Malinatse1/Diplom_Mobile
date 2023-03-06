@@ -24,6 +24,8 @@
 <code><img width="5%" title="Jenkins" src="readme_resources/Jenkins.svg"></code>
 <code><img width="5%" title="Telegram" src="readme_resources/Telegram.svg"></code>
 <code><img width="5%" title="Allure_TO" src="readme_resources/Allure_TO.svg"></code>
+<code><img width="5%" title="Android-studio" src="readme_resources/Android-studio.svg"></code>
+<code><img width="5%" title="Browserstack" src="readme_resources/Browserstack.svg"></code>
 </p>
 
 ## :heavy_check_mark: Тест кейсы
@@ -36,12 +38,17 @@
 ##  Запуск тестов из терминала :computer:
 
 1. Запуск с командной строки:
+
 ```gradle clean test =-Denv=browserstack```
+
 ```gradle clean test = -Denv=emulator```
+
 ```gradle clean test = -Denv=real```
 
-2. Получение отчёта: ```gradle allureServe```
-3. Результат запуска сборки можно посмотреть в отчёте Allure
+2. Получение отчёта: 
+
+```gradle allureServe```
+3. Результат запуска сборки можно посмотреть в отчёте Allure.
 
  
 ##  Запуск тестов в Jenkins
@@ -49,7 +56,7 @@
 2. Указать значения параметров и нажать кнопку ```Собрать```.
 3. Результат запуска сборки можно посмотреть в отчёте Allure.
 
-![](/readme_resources/Allure_Report.png)
+![](/readme_resources/.png)
 
 После завершения сборки результаты тестирования доступны в:
 >- <code><strong>*Allure Report*</strong></code>
@@ -59,28 +66,39 @@
 ###  Основной Дашборд ###
 Для перехода к просмотру отчета в разделе "История сборок" нажать значок "Allure Report", откроется страница с отчетом по прохождению.
 
-![This is an image](/readme_resources/Allure_dashboard.png)
+![This is an image](/readme_resources/Allure_dashboa.png)
 
 ###  Группировка тестов по проверяемому функционалу ###
 
-![This is an image](/readme_resources/Allure_step%20.png)
+![This is an image](/readme_resources/Allure_sep%20.png)
 ##  Уведомления в Telegram с использованием бота
 
 После завершения сборки, Вам будет отправлено уведомление в ```Telegram``` с отчетом о прохождении.
 
-![This is an image](/readme_resources/Telegram_report.png)
+![This is an image](/readme_resources/Telegram_rport.png)
 
 ## <img width="4%" title="Allure TestOPS" src="readme_resources/Allure_TO.svg"> Интеграция с [Allure TestOps](https://allure.autotests.cloud/launch/18485)
 ### Основной дашборд
 
 <p align="center">
-  <img src="readme_resources/Allure_TO_dashboard.png" alt="dashboard" width="900">
+  <img src="readme_resources/Allure_TO_dashboard.p" alt="dashboard" width="900">
 </p>
 
 ### Список тестов с результатами прогона
 
 <p align="center">
-  <img src="readme_resources/Allure_TO_results.png" alt="dashboard" width="900">
+  <img src="readme_resources/Allure_TO_resus.png" alt="dashboard" width="900">
+</p>
+
+К каждому тесту в отчете прилагается видео.
+
+На данном видео выполняется:
+
+- Проверка перехода на статью
+
+
+<p align="center">
+  <img title="Browserstack Video" src="readme_resources/video-browserstack.gif">
 </p>
 
 
