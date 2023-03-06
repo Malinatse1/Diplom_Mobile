@@ -6,8 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4ee8ff4e-e5d5-4e9f-85d8-e2aeb335b540" name="Changes" comment="added tests">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/android/OnboardingScreenTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/android/SearchTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/android/WikiTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/android/WikiTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/android/WikiTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +99,7 @@
       <recent name="config" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.OnboardingScreenTests">
+  <component name="RunManager" selected="Gradle.WikiTests.searchTestWithSmallLetter">
     <configuration name="OnboardingScreenTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -138,29 +137,6 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;tests.android.OnboardingScreenTests.onboardingTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="SearchTests.searchTest (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;tests.android.local.SearchTests.searchTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -216,13 +192,36 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="WikiTests.searchTestWithSmallLetter" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;tests.android.WikiTests.searchTestWithSmallLetter&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.WikiTests.searchTestWithSmallLetter" />
         <item itemvalue="Gradle.OnboardingScreenTests" />
         <item itemvalue="Gradle.OnboardingScreenTests.onboardingTest" />
         <item itemvalue="Gradle.SearchTests.searchTest (2)" />
         <item itemvalue="Gradle.SearchTests.searchTest" />
-        <item itemvalue="Gradle.SearchTests.searchTest (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -270,7 +269,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678130208060</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="added tests">
+      <created>1678131390653</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1678131390653</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

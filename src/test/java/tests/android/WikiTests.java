@@ -11,12 +11,24 @@ import static io.appium.java_client.AppiumBy.id;
 import static io.qameta.allure.Allure.step;
 
 public class WikiTests extends TestBase {
-    @DisplayName("Check search")
+    @DisplayName("Check search with Capital letter")
     @Test
-    void searchTest () {
+    void searchTestWithCapitalLetter () {
         step("Type search", () -> {
             $(accessibilityId("Search Wikipedia")).click();
             $(id("org.wikipedia.alpha:id/search_src_text")).sendKeys("BrowserStack");
+        });
+        step("Verify content found", () ->
+                $$(id("org.wikipedia.alpha:id/page_list_item_title"))
+                        .shouldHave(sizeGreaterThan(0)));
+    }
+
+    @DisplayName("Check search with small letter")
+    @Test
+    void searchTestWithSmallLetter () {
+        step("Type search", () -> {
+            $(accessibilityId("Search Wikipedia")).click();
+            $(id("org.wikipedia.alpha:id/search_src_text")).sendKeys("browserStack");
         });
         step("Verify content found", () ->
                 $$(id("org.wikipedia.alpha:id/page_list_item_title"))
@@ -39,29 +51,6 @@ public class WikiTests extends TestBase {
         step("Check visibility of header logo", () ->
                 $(id("org.wikipedia.alpha:id/single_fragment_toolbar_wordmark"))
                         .shouldBe(visible));
-    }
-    @Test
-    @DisplayName("Проверка перехода по 4 страницам")
-    void onboardingTest() {
-        step("Open started page", () -> {
-            $(id("org.wikipedia.alpha:id/primaryTextView"))
-                    .shouldHave(text("The Free Encyclopedia …in over 300 languages"));
-        });
-        step("Go to the next onboarding page - New ways to explore", () -> {
-            $(id("org.wikipedia.alpha:id/fragment_onboarding_forward_button")).click();
-            $(id("org.wikipedia.alpha:id/primaryTextView"))
-                    .shouldHave(text("New ways to explore"));
-        });
-        step("Go to the next onboarding page - Reading lists with sync", () -> {
-            $(id("org.wikipedia.alpha:id/fragment_onboarding_forward_button")).click();
-            $(id("org.wikipedia.alpha:id/primaryTextView"))
-                    .shouldHave(text("Reading lists with sync"));
-        });
-        step("Go to the next onboarding page - Send anonymous data", () -> {
-            $(id("org.wikipedia.alpha:id/fragment_onboarding_forward_button")).click();
-            $(id("org.wikipedia.alpha:id/primaryTextView"))
-                    .shouldHave(text("Send anonymous data"));
-        });
     }
 
 }
