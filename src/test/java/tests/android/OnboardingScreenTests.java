@@ -1,16 +1,17 @@
 package tests.android;
 
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
-
 import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Selenide.*;
 import static io.appium.java_client.AppiumBy.id;
 import static io.qameta.allure.Allure.step;
-import static org.junit.jupiter.api.Assertions.assertEquals;
+
 
 public class OnboardingScreenTests extends TestBase {
 
     @Test
+    @DisplayName("Проверка перехода по 4 страницам")
     void onboardingTest() {
         step("Open started page", () -> {
             $(id("org.wikipedia.alpha:id/primaryTextView"))
@@ -32,4 +33,5 @@ public class OnboardingScreenTests extends TestBase {
                     .shouldHave(text("Send anonymous data"));
         });
     }
+
 }

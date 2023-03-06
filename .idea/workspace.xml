@@ -4,32 +4,35 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4ee8ff4e-e5d5-4e9f-85d8-e2aeb335b540" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/config/BrowserstackConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/config/EmulatorConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/config/RealDeviceConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/drivers/BrowserstackDriver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/drivers/EmulatorDriver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/drivers/RealDeviceDriver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/helpers/Attach.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/helpers/Browserstack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/helpers/CustomApiListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/android/local/OnboardingScreenTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/android/local/TestBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/conf.properties" afterDir="false" />
+    <list default="true" id="4ee8ff4e-e5d5-4e9f-85d8-e2aeb335b540" name="Changes" comment="added tests">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notifications/allure-notifications-4.2.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notifications/draft.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notifications/telegram.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/readme_resources/Allure_Report.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/readme_resources/Allure_Report.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/readme_resources/Allure_TO.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/readme_resources/Allure_TO_dashboard.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/readme_resources/Allure_TO_results.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/readme_resources/Allure_dashboard.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/readme_resources/Allure_results.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/readme_resources/Allure_step .png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/readme_resources/GitHub.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/readme_resources/Gradle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/readme_resources/Idea.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/readme_resources/JUnit5.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/readme_resources/Java.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/readme_resources/Jenkins.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/readme_resources/Jenkins.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/readme_resources/Selenide.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/readme_resources/Selenoid.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/readme_resources/Telegram.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/readme_resources/Telegram_bot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/readme_resources/Telegram_report.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/readme_resources/video.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/android/SearchTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/android/OnboardingScreenTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/android/OnboardingScreenTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,12 +105,13 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/QA GURU/HW_22_Mobile/src/test/java/tests/android/local",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
+    "last_opened_file_path": "C:/QA GURU/HW_22_Mobile",
+    "settings.editor.selected.configurable": "io.qameta.allure.idea.settings.AppSettingsConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\QA GURU\HW_22_Mobile" />
       <recent name="C:\QA GURU\HW_22_Mobile\src\test\java\tests\android\local" />
       <recent name="C:\QA GURU\HW_22_Mobile\src\test\resources" />
       <recent name="C:\QA GURU\HW_22_Mobile\src\test\java" />
@@ -120,24 +124,26 @@
       <recent name="config" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.HW_22_Mobile [downloadAllure]">
-    <configuration name="HW_22_Mobile [downloadAllure]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.OnboardingScreenTests.onboardingTest">
+    <configuration name="OnboardingScreenTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
+        <option name="scriptParameters" value="" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value="downloadAllure" />
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;tests.android.OnboardingScreenTests&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
@@ -155,30 +161,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;tests.android.local.OnboardingScreenTests.onboardingTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="SearchTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;selenide.SearchTests&quot;" />
+            <option value="&quot;tests.android.OnboardingScreenTests.onboardingTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -202,6 +185,29 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;tests.android.local.SearchTests.searchTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="SearchTests.searchTest (2)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;tests.android.SearchTests.searchTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -236,11 +242,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.HW_22_Mobile [downloadAllure]" />
         <item itemvalue="Gradle.OnboardingScreenTests.onboardingTest" />
-        <item itemvalue="Gradle.SearchTests.searchTest (1)" />
+        <item itemvalue="Gradle.OnboardingScreenTests" />
+        <item itemvalue="Gradle.SearchTests.searchTest (2)" />
         <item itemvalue="Gradle.SearchTests.searchTest" />
-        <item itemvalue="Gradle.SearchTests" />
+        <item itemvalue="Gradle.SearchTests.searchTest (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -253,6 +259,25 @@
       <option name="presentableId" value="Default" />
       <updated>1677843884135</updated>
     </task>
+    <task id="LOCAL-00001" summary="added tests">
+      <created>1677945937385</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1677945937385</updated>
+    </task>
+    <task id="LOCAL-00002" summary="added tests">
+      <created>1677946006722</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1677946006722</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="added tests" />
   </component>
 </project>
